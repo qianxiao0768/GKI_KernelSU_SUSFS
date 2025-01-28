@@ -133,10 +133,10 @@ jobs:
       REPO_OWNER: TheWildJames
       REPO_NAME: GKI_KernelSU_SUSFS
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      RELEASE_NAME: "*TEST BUILD* GKI Kernels With KernelSU Next & SUSFS v1.5.4 *TEST BUILD*"
+      RELEASE_NAME: "*TEST BUILD* GKI Kernels With KernelSU & SUSFS v1.5.? *TEST BUILD*"
       RELEASE_NOTES: |
-        This release contains KernelSU Next and SUSFS v1.5.4
-        
+        This release contains KernelSU and SUSFS
+
         Module: 
         -> https://github.com/sidex15/ksu_module_susfs
         
@@ -144,16 +144,13 @@ jobs:
         -> https://github.com/tiann/KernelSU
         
         Non-Official Managers:
-        -> https://github.com/rifsxd/KernelSU-Next
-        -> https://github.com/backslashxx/KernelSU
-        -> https://github.com/rsuntk/KernelSU
-        -> https://github.com/5ec1cff/KernelSU
-        -> https://github.com/silvzr/KernelSU
-        -> https://github.com/sidex15/KernelSU
+
+        -> https://github.com/tiann/KernelSU
         
         Features:
-        [+] KernelSU-Next
-        [+] SUSFS v1.5.4
+        [+] KernelSU
+        [+] SUSFS
+
         [+] Wireguard Support
         [+] Maphide LineageOS Detections
         [+] Futile Maphide for jit-zygote-cache Detections
